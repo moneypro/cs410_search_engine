@@ -1,0 +1,267 @@
+{
+    "About": {
+        "schema": [
+            {
+                "name": "Name",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Homepage",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "LinkedIn",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Academic",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "ResearchGate",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "About",
+                "isPK": false,
+                "syntax": "Text"
+            }
+        ],
+        "results": {
+            "irrelevant": [
+                {
+                    "Name": "Dan Roth",
+                    "Homepage": "l2r.cs.uiuc.edu/",
+                    "LinkedIn": "https://www.linkedin.com/in/dan-roth-8667361",
+                    "Academic": "l2r.cs.uiuc.edu/, l2r.cs.uiuc.edu/courses.html, l2r.cs.uiuc.edu/bio.html, https://cs.illinois...., beckman.illinois...., l2r.cs.illinois.edu/~danr/Research/cv.pdf",
+                    "ResearchGate": "https://www.researchgate.net/profile/Dan_Roth, https://www.researchgate.net/profile/Dan_Goldwasser, https://www.researchgate.net/profile/Brian_Pianfetti, https://www.researchgate.net/profile/Parisa_Kordjamshidi, https://www.researchgate.net/profile/Prateek_Jindal, https://www.researchgate.net/profile/Roxana_Girju",
+                    "About": "My research focuses on the computational foundations of intelligent behavior. We develop theories and systems pertaining to intelligent behavior using a unified ...",
+                    "Included by": "Google"
+                }
+            ],
+            "relevant": {
+                "About the Researcher": []
+            }
+        }
+    },
+    "Patent": {
+        "schema": [
+            {
+                "name": "Title",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Inventor(s)",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Filed",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Issued",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Application/Patent Number",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Assignee(s)",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Abstract",
+                "isPK": false,
+                "syntax": "Text"
+            }
+        ],
+        "results": {
+            "irrelevant": [],
+            "relevant": {}
+        }
+    },
+    "Grant": {
+        "schema": [
+            {
+                "name": "Title",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Investigator",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Affiliation",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Agency",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Year",
+                "isPK": true,
+                "syntax": "Integer"
+            },
+            {
+                "name": "Amount",
+                "isPK": false,
+                "syntax": "LongInteger"
+            }
+        ],
+        "results": {
+            "irrelevant": [],
+            "relevant": {}
+        }
+    },
+    "Publication": {
+        "schema": [
+            {
+                "name": "Title",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Author(s)",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Affiliation(s)",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Publisher",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Year",
+                "isPK": true,
+                "syntax": "Integer"
+            },
+            {
+                "name": "Citations",
+                "isPK": false,
+                "syntax": "LongInteger"
+            }
+        ],
+        "results": {
+            "irrelevant": [
+                {
+                    "Title": "Debiasing Crowdsourced Batches.",
+                    "Author(s)": "Zhuang H, Parameswaran A, Roth D, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Incorporating World Knowledge to Document Clustering via Heterogeneous Information Networks.",
+                    "Author(s)": "Wang C, Song Y, El-Kishky A, Roth D, Zhang M, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Saul: Towards Declarative Learning Based Programming.",
+                    "Author(s)": "Kordjamshidi P, Roth D, Wu H.",
+                    "Publisher": "IJCAI : proceedings of the conference / sponsored by the International Joint Conferences on Artificial Intelligence",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Is Hip Abduction Strength Asymmetry Present in Female Runners in the Early Stages of Patellofemoral Pain Syndrome?",
+                    "Author(s)": "Plastaras C, McCormick Z, Nguyen C, Rho M, Nack SH, Roth D, Casey E, Carneiro K, Cucchiara A, Press J, McLean J, Caldera F.",
+                    "Publisher": "The American journal of sports medicine",
+                    "Year": 2016,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Structured learning for spatial information extraction from biomedical text: bacteria biotopes.",
+                    "Author(s)": "Kordjamshidi P, Roth D, Moens MF.",
+                    "Publisher": "BMC bioinformatics",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Extraction of events and temporal expressions from clinical narratives.",
+                    "Author(s)": "Jindal P, Roth D.",
+                    "Publisher": "Journal of biomedical informatics",
+                    "Year": 2013,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Using domain knowledge and domain-inspired discourse model for coreference resolution for clinical narratives.",
+                    "Author(s)": "Jindal P, Roth D.",
+                    "Publisher": "Journal of the American Medical Informatics Association : JAMIA",
+                    "Year": 2013,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Fabrication of all-inorganic nanocrystal solids through matrix encapsulation of nanocrystal arrays.",
+                    "Author(s)": "Kinder E, Moroz P, Diederich G, Johnson A, Kirsanova M, Nemchinov A, O'Connor T, Roth D, Zamkov M.",
+                    "Publisher": "Journal of the American Chemical Society",
+                    "Year": 2011,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Learning to detect objects in images via a sparse, part-based representation.",
+                    "Author(s)": "Agarwal S, Awan A, Roth D.",
+                    "Publisher": "IEEE transactions on pattern analysis and machine intelligence",
+                    "Year": 2004,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Learning to recognize three-dimensional objects.",
+                    "Author(s)": "Roth D, Yang MH, Ahuja N.",
+                    "Publisher": "Neural computation",
+                    "Year": 2002,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Constrained conditional models for information fusion",
+                    "Author(s)": [],
+                    "Publisher": "IEEE",
+                    "Year": 2011,
+                    "Included by": "IEEE Xplore"
+                },
+                {
+                    "Title": "Learning from Negative Examples in Set-Expansion",
+                    "Author(s)": [],
+                    "Publisher": "IEEE",
+                    "Year": 2011,
+                    "Included by": "IEEE Xplore"
+                },
+                {
+                    "Title": "Learning to Recognize Three-Dimensional Objects",
+                    "Author(s)": [],
+                    "Publisher": "MIT Press",
+                    "Year": 2002,
+                    "Included by": "IEEE Xplore"
+                }
+            ],
+            "relevant": {}
+        }
+    },
+    "Collaborators":
+    ["Mark Sammons", "Eyal Amir", "Cynthia Fisher", "Ido Dagan", "Nick Rizzolo", "Michael Connor", "Fabio Massimo Zanzotto", "Rodrigo De Salvo Braz"],
+    "School":
+    ["Miles Efron", "James W. Beauchamp", "Heather Metcalf", "Erin W. Chambers", "Tanya L. Crenshaw", "Peter Organisciak", "Hadi Bargi Rangin", "Dan Roth", "Mark Sammons", "Garrick Sherman"]
+}

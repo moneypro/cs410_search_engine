@@ -1,0 +1,672 @@
+{
+    "About": {
+        "schema": [
+            {
+                "name": "Name",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Homepage",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "LinkedIn",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Academic",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "ResearchGate",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "About",
+                "isPK": false,
+                "syntax": "Text"
+            }
+        ],
+        "results": {
+            "irrelevant": [
+                {
+                    "Name": "Jiawei Han",
+                    "Homepage": "hanj.cs.illinois.edu/",
+                    "LinkedIn": "https://www.linkedin.com/in/jiaweih",
+                    "Academic": "hanj.cs.illinois.edu/, https://cs.illinois...., dm1.cs.uiuc.edu/",
+                    "ResearchGate": "https://www.researchgate.net/profile/Jiawei_Han3, https://www.researchgate.net/profile/Jiawei_Han, https://www.researchgate.net/profile/Jiawei_Han2, https://www.researchgate.net/profile/Nikita_Spirin2, https://www.researchgate.net/profile/Yanglei_Song, https://www.researchgate.net/profile/Ming_Ji3, https://www.researchgate.net/profile/Chi_Wang2, www.researchgate.net/.../220415864_Database_Research_at_t..., https://www.researchgate.net/profile/Kavita_Ganesan, https://www.researchgate.net/profile/Luiz_Mendes5",
+                    "About": "Rm 2132, Siebel Center for Computer Science 201 N. Goodwin Avenue Urbana, IL 61801, USA E-mail: hanj[at]cs.uiuc.edu. Ph.D. (1985), Computer Science, ...",
+                    "Included by": "Google"
+                }
+            ],
+            "relevant": {
+                "About the Researcher": []
+            }
+        }
+    },
+    "Patent": {
+        "schema": [
+            {
+                "name": "Title",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Inventor(s)",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Filed",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Issued",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Application/Patent Number",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Assignee(s)",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Abstract",
+                "isPK": false,
+                "syntax": "Text"
+            }
+        ],
+        "results": {
+            "irrelevant": [
+                {
+                    "Title": "Methods and system for mining frequent patterns",
+                    "Inventor(s)": " Jiawei Han, Jian Pei, Yiwen Yin, Runying Mao",
+                    "Filed": " December 26, 2000",
+                    "Issued": "Publication date February 6, 2003",
+                    "Assignee(s)": "",
+                    "Abstract": "This invention provides methods apparatus and data structures useful for mining databases for frequent items. The invention uses a frequent pattern tree to represent the contents of a database in a manner which is conducive to data mining. The frequent pattern tree tends to be smaller than the original database. A frequent pattern tree can be mined recursively. The frequent pattern tree and associated methods and apparatus of this invention is relatively fast, efficient and scalable and can be used to mine both long and short frequent patterns.",
+                    "Included by": "Justia"
+                },
+                {
+                    "Title": "Methods and system for mining frequent patterns",
+                    "Inventor(s)": " Jiawei Han, Jian Pei, Yiwen Yin, Runying Mao",
+                    "Filed": " December 26, 2000",
+                    "Issued": "Date of Patent December 16, 2003",
+                    "Assignee(s)": " DB Miner Technology Inc.",
+                    "Abstract": "This invention provides methods apparatus and data structures useful for mining databases for frequent items. The invention uses a frequent pattern tree to represent the contents of a database in a manner which is conducive to data mining. The frequent pattern tree tends to be smaller than the original database. A frequent pattern tree can be mined recursively. The frequent pattern tree and associated methods and apparatus of this invention is relatively fast, efficient and scalable and can be used to mine both long and short frequent patterns.",
+                    "Included by": "Justia"
+                },
+                {
+                    "Title": "Systems and Methods for Detecting a Novel Data Class",
+                    "Inventor(s)": " Mohammad Mehedy Masud, Latifur Rahman Khan, Bhavani Marienne Thuraisingham, Qing Chen, Jing Gao, Jiawei Han",
+                    "Filed": " August 22, 2011",
+                    "Issued": {
+                        "Justia": "Date of Patent October 20, 2015"
+                    },
+                    "Assignee(s)": {
+                        "Justia": "s BOARD OF TRUSTEES OF THE UNIVERSITY OF ILLINOIS, BOARD OF REGENTS, THE UNIVERSITY OF TEXAS SYSTEM"
+                    },
+                    "Abstract": "Systems and methods for data classification and novel data class detection are provided. In one illustrative embodiment, a system or method for detecting a novel class includes receiving a data stream comprising a plurality of data points, and identifying a set of filtered outliers, in the plurality of data points, that are outside of a decision boundary. A cohesion and a separation for the set of filtered outliers may be determined. A novel class may be detected using the cohesion and the separation of the set of filtered outliers, and the novel class may include the set of filtered outliers.",
+                    "Included by": "Justia, Justia"
+                },
+                {
+                    "Title": "Method of manufacturing a composite optical element",
+                    "Inventor(s)": " Meng-Shin Kuo, Wei-Kuo Han",
+                    "Filed": " September 23, 1999",
+                    "Issued": "Date of Patent May 29, 2001",
+                    "Assignee(s)": " Industrial Technology Research Institute",
+                    "Abstract": "A method of manufacturing a composite optical element, in which method a lens material of plastic is formed on a lens. The lens has a first optical surface and a second optical surface, and a lateral edge tilted at an angle relative to the perpendicular center line of the lens. The lens material is formed into a lens medium which covers only the first optical surface and a portion of the lateral edge of the lens. A tight binding is then established between the lens and the lens medium, which is formed of the lens material.",
+                    "Included by": "Justia"
+                },
+                {
+                    "Title": "Method of forming dual damascene interconnects using glue material as plug material",
+                    "Inventor(s)": " Tzung-Han Lee, Li-Chieh Chao",
+                    "Filed": " May 8, 1998",
+                    "Issued": "Date of Patent January 23, 2001",
+                    "Assignee(s)": " United Microelectronics Corp",
+                    "Abstract": "An multi-level interconnection uses a glue layer material as a via plug or contact plug. An method of forming the multi-level interconnection includes forming a first opening and a wider second opening in a dielectric layer, whereas the first opening exposes the conductive layer and the second opening is above the first opening; and filling the first opening with titanium, titanium nitride or tungsten nitride.",
+                    "Included by": "Justia"
+                },
+                {
+                    "Title": "Digital programmable direct current to direct current (DC-DC) voltage-down converter",
+                    "Inventor(s)": " Shyh-Jye Jou, Chi-Lin Chen, Li-Kuo Liu",
+                    "Filed": " March 11, 1999",
+                    "Issued": "Date of Patent January 30, 2001",
+                    "Assignee(s)": " Farady Technology Corp.",
+                    "Abstract": "A digital programmable DC—DC voltage-down converter which can be used in a low voltage and low power digital circuit design is disclosed. The DC—DC voltage-down converter includes at least a digitally controlled oscillator (DCO), a pulse-width modulator (PWM), a gate driver, and a switching-type voltage-down converter. Duty cycle and operating frequency of the modulated signal are controlled by using two digital control signals. Furthermore, combining the pulse-width modulator and the digitally controlled oscillator (DCO), the duty cycle of the generated clock is more robustly stable for different frequencies during process variation.",
+                    "Included by": "Justia"
+                },
+                {
+                    "Title": "Mouse interface converter for connecting mouse to computers with different types of connecting ports",
+                    "Inventor(s)": " Han-Che Wang, Wen-Pin Chou, Tzu-Chiang Shih",
+                    "Filed": " October 14, 1998",
+                    "Issued": "Date of Patent June 12, 2001",
+                    "Assignee(s)": " Primax Electronics Ltd.",
+                    "Abstract": "A mouse interface converter is provided, which allows a mouse to be connectable to a computer system, such as a personal computer (PC), installed with either an RS-232 serial port or a PS/2 port. This mouse interface converter allows the mouse to be connected directly to PS/2 port and via an adapter to RS-232 serial port. The mouse interface converter includes a mode-detection circuit for detecting which type of port the mouse is currently being connected. The mode-detection circuit can generate a mode-indicating signal indicative of the type of the currently connected port, which is then used to set a control circuit to convert the mouse data to the corresponding format. The mouse interface converter further includes a driving circuit that allows the mouse to be more compatible with various signals of either the PS/2 port or the RS-232 serial port. This feature allows the mouse to be considerably reduced in power consumption that allows the mouse to be suitable for use on notebook computers.",
+                    "Included by": "Justia"
+                }
+            ],
+            "relevant": {}
+        }
+    },
+    "Grant": {
+        "schema": [
+            {
+                "name": "Title",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Investigator",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Affiliation",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Agency",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Year",
+                "isPK": true,
+                "syntax": "Integer"
+            },
+            {
+                "name": "Amount",
+                "isPK": false,
+                "syntax": "LongInteger"
+            }
+        ],
+        "results": {
+            "irrelevant": [
+                {
+                    "Title": "III: Small: Collaborative Research: Conflicts to Harmony: Integrating Massive Data by Trustworthiness Estimation and Truth Discovery",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2013,
+                    "Amount": 211115,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "III-Core:Small: MoveMine: Mining Sophisticated Patterns and Actionable Knowledge from Massive Moving Object Data",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2010,
+                    "Amount": 500000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "CPS: Small: Collaborative Research: Foundations of Cyber-Physical Networks",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2009,
+                    "Amount": 275000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "SGER: CS-BibCube: OLAPing and Mining of Computer Science Literature",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2008,
+                    "Amount": 105000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "SGER: DataScope: Viewing Database Contents in Multi-Resolution at Your Finger Tips",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2006,
+                    "Amount": 80000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "SEI(IIS): MotionEye: Querying and Mining Large Datasets of Moving Objects",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2005,
+                    "Amount": 274952,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "NGS: Collaborative Research: Reusable, Observation-based Performance Prediction across Platforms",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2004,
+                    "Amount": 23444,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Mining Sequential Patterns and Structured Patterns: Scalability, Flexibility, Extensibility, and Applicability",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2002,
+                    "Amount": 82500,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "III: Medium: Collaborative Research: Towards On-Line Analytical Mining of Heterogeneous Information Networks",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2009,
+                    "Amount": 831301,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Collaborative Research: Endowing Biological Databases With Analytical Power: Indexing, Querying, and Mining of Complex Biological Structures",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2005,
+                    "Amount": 271385,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Mining Dynamics of Data Streams in Multi-Dimensional Space",
+                    "Investigator": "Jiawei Han",
+                    "Affiliation": "University of Illinois at Urbana-Champaign",
+                    "Agency": "NSF",
+                    "Year": 2003,
+                    "Amount": 300000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "07-IVHM2-07-0005 EVENT CUBE: AN ORGANIZED APPROACH FOR MINING AND UNDERSTANDING ANOMALOUS AVIATION EVENTS To help analysts study aviation reports, understand the causes of anomalous aviation events, and improve aviation safety, we propose to systematicall",
+                    "Investigator": "JIAWEI HAN",
+                    "Affiliation": "UNIVERSITY OF ILLINOIS (0511) 47840",
+                    "Agency": "NASA",
+                    "Year": 2007,
+                    "Amount": 1185000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Direct Rapid Prototyping and Process Generation",
+                    "Investigator": "Jiawei Hong",
+                    "Affiliation": "CIMplus, Inc",
+                    "Agency": "NSF",
+                    "Year": 1995,
+                    "Amount": 74927,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Collaborative Research: Optimization Approach to Collaborative Games in Supply Chain Management",
+                    "Investigator": "Jiawei Zhang",
+                    "Affiliation": "New York University",
+                    "Agency": "NSF",
+                    "Year": 2007,
+                    "Amount": 59424,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Collaborative Research: CSR---CSI: A Virtual Sensor Network Based",
+                    "Investigator": "Qi Han",
+                    "Affiliation": "Colorado School of Mines",
+                    "Agency": "NSF",
+                    "Year": 2007,
+                    "Amount": 243547,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "CAREER: Biomechanics of Artery Buckling",
+                    "Investigator": "Hai-Chao Han",
+                    "Affiliation": "University of Texas at San Antonio",
+                    "Agency": "NSF",
+                    "Year": 2007,
+                    "Amount": 478000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "CAREER:Developing Novel Nuclear Magnetic Resonance Contrast and Sensitivity Enhancement Mechanisms for Materials and Reactions Studies",
+                    "Investigator": "Song-I Han",
+                    "Affiliation": "University of California-Santa Barbara",
+                    "Agency": "NSF",
+                    "Year": 2007,
+                    "Amount": 733943,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "CAREER: Multi-scale cell-fluid-matrix interactions during freezing/thawing of biological tissues",
+                    "Investigator": "Bumsoo Han",
+                    "Affiliation": "Purdue University",
+                    "Agency": "NSF",
+                    "Year": 2009,
+                    "Amount": 294302,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "CiC (FRCC): Towards a Mobile Cloud Computing Framework to Support Next-Generation Mobile Applications",
+                    "Investigator": "Richard Han",
+                    "Affiliation": "University of Colorado at Boulder",
+                    "Agency": "NSF",
+                    "Year": 2011,
+                    "Amount": 370000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Superfluid Atomic Bosons, Fermions and Their Mixtures",
+                    "Investigator": "Han Pu",
+                    "Affiliation": "William Marsh Rice University",
+                    "Agency": "NSF",
+                    "Year": 2009,
+                    "Amount": 204254,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Basic Study on Novel Molecule-Based Magnetic Polymers and Homogeneous Magnetic Fluids",
+                    "Investigator": "Chang Han",
+                    "Affiliation": "University of Akron",
+                    "Agency": "NSF",
+                    "Year": 2008,
+                    "Amount": 314427,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Annual Phenomenology Symposia at the University of Wisconsin-Madison Springs 2011 and 2012",
+                    "Investigator": "Tao Han",
+                    "Affiliation": "University of Pittsburgh",
+                    "Agency": "NSF",
+                    "Year": 2012,
+                    "Amount": 16372,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Collaborative Research: Large-Scale Patterning of Germanium Quantum Dots by Stress Transfer",
+                    "Investigator": "Sang Han",
+                    "Affiliation": "University of New Mexico",
+                    "Agency": "NSF",
+                    "Year": 2011,
+                    "Amount": 270000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "CAREER: Mutual Benefit in Cognitive Radio Networks: A Coalitional Game Framework",
+                    "Investigator": "Zhu Han",
+                    "Affiliation": "University of Houston",
+                    "Agency": "NSF",
+                    "Year": 2010,
+                    "Amount": 416000,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "Emergent Forms of Relatedness: Complex family forms, policing and incarceration in a poor urban neighborhood of Santiago, Chile",
+                    "Investigator": "Clara Han",
+                    "Affiliation": "Johns Hopkins University",
+                    "Agency": "NSF",
+                    "Year": 2011,
+                    "Amount": 121995,
+                    "Included by": "NSF"
+                },
+                {
+                    "Title": "KNOWENG, A SCALABLE KNOWLEDGE ENGINE FOR LARGE-SCALE GENOMIC DATA-OVERALL",
+                    "Investigator": "HAN,JIAWEI; 'SINHA, SAURABH ;SONG, JUN S;WEINSHILBOUM, RICHARD M.;', ",
+                    "Affiliation": "UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN",
+                    "Agency": "NIGMS (Admin IC), OD (Funding IC)",
+                    "Year": 2015,
+                    "Included by": "NIH, NIH, NIH"
+                },
+                {
+                    "Title": "ADMINISTRATIVE CORE",
+                    "Investigator": "HAN,JIAWEI; 'SINHA, SAURABH ;SONG, JUN S;WEINSHILBOUM, RICHARD M.;', ",
+                    "Affiliation": "UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN",
+                    "Agency": "NIGMS (Admin IC),   (Funding IC)",
+                    "Year": 2015,
+                    "Included by": "NIH, NIH"
+                }
+            ],
+            "relevant": {}
+        }
+    },
+    "Publication": {
+        "schema": [
+            {
+                "name": "Title",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Author(s)",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Affiliation(s)",
+                "isPK": false,
+                "syntax": "Text"
+            },
+            {
+                "name": "Publisher",
+                "isPK": true,
+                "syntax": "Text"
+            },
+            {
+                "name": "Year",
+                "isPK": true,
+                "syntax": "Integer"
+            },
+            {
+                "name": "Citations",
+                "isPK": false,
+                "syntax": "LongInteger"
+            }
+        ],
+        "results": {
+            "irrelevant": [
+                {
+                    "Title": " A Framework for Clustering Evolving Data Streams",
+                    "Author(s)": "Charu C., Aggarwal",
+                    "Publisher": "Proceedings 2003 VLDB Conference",
+                    "Included by": "Science Direct"
+                },
+                {
+                    "Title": " A Framework for Projected Clustering of High Dimensional Data Streams",
+                    "Author(s)": "Charu C., Aggarwal",
+                    "Publisher": "Proceedings 2004 VLDB Conference",
+                    "Included by": "Science Direct"
+                },
+                {
+                    "Title": "PA—Precision Agriculture An Information Table for Yield Data Analysis and Management",
+                    "Author(s)": "Q., Zhang",
+                    "Publisher": "Biosystems Engineering",
+                    "Included by": "Science Direct"
+                },
+                {
+                    "Title": "Debiasing Crowdsourced Batches.",
+                    "Author(s)": "Zhuang H, Parameswaran A, Roth D, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Fast Inbound Top-K Query for Random Walk with Restart.",
+                    "Author(s)": "Zhang C, Jiang S, Chen Y, Sun Y, Han J.",
+                    "Publisher": "Machine learning and knowledge discovery in databases : European Conference, ECML PKDD ... : proceedings. ECML PKDD (Conference)",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "TOPTRAC: Topical Trajectory Pattern Mining.",
+                    "Author(s)": "Kim Y, Han J, Yuan C.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Robust Classification of Information Networks by Consistent Graph Learning.",
+                    "Author(s)": "Zhi S, Han J, Gu Q.",
+                    "Publisher": "Machine learning and knowledge discovery in databases : European Conference, ECML PKDD ... : proceedings. ECML PKDD (Conference)",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Leveraging Pattern Semantics for Extracting Entities in Enterprises.",
+                    "Author(s)": "Tao F, Zhao B, Fuxman A, Li Y, Han J.",
+                    "Publisher": "Proceedings of the ... International World-Wide Web Conference. International WWW Conference",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Graph Regularized Meta-path Based Transductive Regression in Heterogeneous Information Network.",
+                    "Author(s)": "Wan M, Ouyang Y, Kaplan L, Han J.",
+                    "Publisher": "Proceedings of the ... SIAM International Conference on Data Mining. SIAM International Conference on Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Automatic Entity Recognition and Typing from Massive Text Corpora: A Phrase and Network Mining Approach.",
+                    "Author(s)": "Ren X, El-Kishky A, Wang C, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Modeling Truth Existence in Truth Discovery.",
+                    "Author(s)": "Zhi S, Zhao B, Tong W, Gao J, Yu D, Ji H, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Assembler: Efficient Discovery of Spatial Co-evolving Patterns in Massive Geo-sensory Data.",
+                    "Author(s)": "Zhang C, Zheng Y, Ma X, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Towards Interactive Construction of Topical Hierarchy: A Recursive Tensor Decomposition Approach.",
+                    "Author(s)": "Wang C, Liu X, Song Y, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Incorporating World Knowledge to Document Clustering via Heterogeneous Information Networks.",
+                    "Author(s)": "Wang C, Song Y, El-Kishky A, Roth D, Zhang M, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "ClusType: Effective Entity Recognition and Typing by Relation Phrase-Based Clustering.",
+                    "Author(s)": "Ren X, El-Kishky A, Wang C, Tao F, Voss CR, Ji H, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "On the Discovery of Evolving Truth.",
+                    "Author(s)": "Li Y, Li Q, Gao J, Su L, Zhao B, Fan W, Han J.",
+                    "Publisher": "KDD : proceedings / International Conference on Knowledge Discovery & Data Mining. International Conference on Knowledge Discovery & Data Mining",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Mining Quality Phrases from Massive Text Corpora.",
+                    "Author(s)": "Liu J, Shang J, Wang C, Ren X, Han J.",
+                    "Publisher": "Proceedings / ACM-SIGMOD International Conference on Management of Data. ACM-Sigmod International Conference on Management of Data",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "KnowEnG: a knowledge engine for genomics.",
+                    "Author(s)": "Sinha S, Song J, Weinshilboum R, Jongeneel V, Han J.",
+                    "Publisher": "Journal of the American Medical Informatics Association : JAMIA",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "MEK inhibitor PD-0325901 overcomes resistance to CK2 inhibitor CX-4945 and exhibits anti-tumor activity in head and neck cancer.",
+                    "Author(s)": "Bian Y, Han J, Kannabiran V, Mohan S, Cheng H, Friedman J, Zhang L, VanWaes C, Chen Z.",
+                    "Publisher": "International journal of biological sciences",
+                    "Year": 2015,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Environmental drivers of variability in the movement ecology of turkey vultures (Cathartes aura) in North and South America.",
+                    "Author(s)": "Dodge S, Bohrer G, Bildstein K, Davidson SC, Weinzierl R, Bechard MJ, Barber D, Kays R, Brandes D, Han J, Wikelski M.",
+                    "Publisher": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+                    "Year": 2014,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "A network-assisted co-clustering algorithm to discover cancer subtypes based on gene expression.",
+                    "Author(s)": "Liu Y, Gu Q, Hou JP, Han J, Ma J.",
+                    "Publisher": "BMC bioinformatics",
+                    "Year": 2014,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "The environmental-data automated track annotation (Env-DATA) system: linking animal tracks with environmental data.",
+                    "Author(s)": "Dodge S, Bohrer G, Weinzierl R, Davidson SC, Kays R, Douglas D, Cruz S, Han J, Brandes D, Wikelski M.",
+                    "Publisher": "Movement ecology",
+                    "Year": 2013,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Selection of interdependent genes via dynamic relevance analysis for cancer diagnosis.",
+                    "Author(s)": "Sun X, Liu Y, Wei D, Xu M, Chen H, Han J.",
+                    "Publisher": "Journal of biomedical informatics",
+                    "Year": 2013,
+                    "Included by": "PubMed"
+                },
+                {
+                    "Title": "Aworldwide tourism recommendation system based on geotaggedweb photos",
+                    "Author(s)": [],
+                    "Publisher": "IEEE",
+                    "Year": 2010,
+                    "Included by": "IEEE Xplore"
+                },
+                {
+                    "Title": "Efficient Kernel Discriminant Analysis via Spectral Regression",
+                    "Author(s)": [],
+                    "Publisher": "IEEE",
+                    "Year": 2007,
+                    "Included by": "IEEE Xplore"
+                },
+                {
+                    "Title": "Spectral Regression for Efficient Regularized Subspace Learning",
+                    "Author(s)": [],
+                    "Publisher": "IEEE",
+                    "Year": 2007,
+                    "Included by": "IEEE Xplore"
+                },
+                {
+                    "Title": "Semi-supervised Discriminant Analysis",
+                    "Author(s)": [],
+                    "Publisher": "IEEE",
+                    "Year": 2007,
+                    "Included by": "IEEE Xplore"
+                }
+            ],
+            "relevant": {}
+        }
+    },
+    "Collaborators":
+    ["Chi Wang ", "Nitesh V. Chawla", "Guozhu Dong", "Saurav Pandit", "Jing Gao", "Benjamin W. Wah", "Charu C. Aggarwal", "Jian Pei", "Yizhou Sun", "Jianyong Wang", "Yixin Chen", "Yang Yang", "Xifeng Yan", "Sangkyum Kim", "Hong Cheng", "Hector Gonzalez", "Xiaolei Li", "Yandong Cai", "Jingbo Shang", "Jialu Liu", "Philip S. Yu", "Manish Gupta"],
+    "School":
+        ["Miles Efron", "James W. Beauchamp", "Heather Metcalf", "Erin W. Chambers", "Tanya L. Crenshaw", "Peter Organisciak", "Hadi Bargi Rangin", "Dan Roth", "Mark Sammons", "Garrick Sherman"]
+}
